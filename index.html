@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programme D-CLIC</title>
+    <!-- lien css -->
+   <link rel="stylesheet" href="style.css">
+
+    <!-- CDN Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- navbar -->
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2" style="background-color: #7BB936;">
+          <div class="container-fluid">
+            <div class="col-4">
+              <a href="#"><img class="logodclic" src="logo/lododclic.png" alt=""></a>
+              <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            </div>
+            <div class="collapse navbar-collapse menuSingila col-8" id="navbarSupportedContent">
+          
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 col-6 ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">ACCUEIL</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">FORMATION</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">PAYS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">TEMOIGNAGES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">CONTACTS</a>
+                </li>
+              </ul>
+              <form class="d-flex col-3" role="search">
+  
+                <input class="form-control me-2" type="search" placeholder="Recherche" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit"><i class="fas fa-search" style="color: #227724;"></i></button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- fin navbar -->
+
+
+<br>
+<br>
+    <!--carousel slide debut-->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="imgDCLIC/ca1 charlotteb.jpg" class="d-block w-100" style="width: auto;" height="600px" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <!-- <h1 class="ceqwdclic">«D-CLIC»</h1> -->
+            <p class="descliq"> 
+              Formez-vous au numérique avec l'OIF <br>
+              Au Burkina, D-CLIC contribuera à la formation de 250 jeunes, hommes et femmes, dont l'âge est compris entre 18 et 35 ans. Le programme couvre les villes de Bobo-Dioulasso, Koudougou et Ouagadougou.
+              </p>
+              <button type="button" class="btn btn-success bsvoirplus" style="background-color: #7BB936; border-radius: 25px;">En savoir plus</button>
+  
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="imgDCLIC/CAR 2 rijf_manchette_site.jpeg" style="width: auto;" height="600px" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="ceqwdclic">Le programme D-CLIC</h5>
+            <p class="text1"> est une initiative de l’Organisation internationale de la francophonie (OIF) dont l’objectif est de proposer des formations certifiantes à la jeunesse francophone, en vue de « renforcer leurs compétences numériques techniques et professionnelles et multiplier leurs chances d’accéder à des emplois décents » explique Jean-Baptiste Kattié, Responsable du Centre d’Employabilité Francophone (CEF) de l’AUF, opérateur de mise en œuvre de D-CLIC au Burkina. <br>
+              
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="imgDCLIC/Car3.jpeg" style="width: auto;" height="600px" class="d-block w-100" alt="...">
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--carousel slide fin -->
+
+<div class="container-fluid vonemin">
+  <br>
+  <div class="row">
+<div class="col-12 BnFormation" style="display: flex; justify-content: center;"><button type="button" class="btn btn-success bsvoirplus" >FORMATIONS</button></div>
+  </div>
+  <br>
+  <!-- Formations -->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100 formDclic">
+        <img src="imgDCLIC/Imgform01.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Développement web et 
+            application mobile</h5>
+          <p class="card-text">            
+            Si vous débutez complètement, le développement web peut être un réel défi — notre but est de simplifier suffisamment le sujet pour que vous appreniez facilement, tout en vous fournissant assez de détails pour que vous soyez autonome. 
+          </div>
+          <div class="col-12 bsLirePlus" style="display: flex; justify-content: center;"><button type="button" class="btn btn-success">LIRE PLUS</button></div> <br>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 formDclic">
+        <img src="imgDCLIC/Imgform1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cloud computing</h5>
+          <p class="card-text">
+            Le cloud computing est la mise à disposition de ressources informatiques (comme la puissance de calcul, le stockage, les bases de données, les applications, etc.) à la demande via Internet, sans avoir à les installer et à les gérer sur site. Le cloud computing est un service tarifé en fonction de votre utilisation et accessible à tout moment.
+            </p>
+        </div>
+        <div class="col-12 bsLirePlus" style="display: flex; justify-content: center;"><button type="button" class="btn btn-success bsvoirplus">LIRE PLUS</button></div> <br>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100 formDclic">
+        <img src="imgDCLIC/Imgform2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Electronique et IOT</h5>
+          <p class="card-text">
+            L’Internet of Things (IoT) décrit le réseau de terminaux physiques, les « objets », qui intègrent des capteurs, des softwares et d’autres technologies en vue de se connecter à d’autres terminaux et systèmes sur Internet et d’échanger des données avec eux. 
+            </p>
+        </div>
+        <div class="col-12 bsLirePlus" style="display: flex; justify-content: center;"><button type="button" class="btn btn-success bsvoirplus">LIRE PLUS</button></div> <br>
+      </div>
+    </div>
+  </div>
+  <!-- formation -->
+  <br>
+  <!-- les pays -->
+  <section class="carousel">
+    <br>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 LesPaysAfricain" style="text-align: center; ">
+          <p><strong>LES PAYS BENEFICIAIRES</strong></p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="carousel__slider">
+      <ul class="carousel__list">
+        <div>
+        <li class="carousel__item">
+          <span><img class="dpbfaso" src="Drapeau/bf.jpg" alt=""></span>
+        </li>
+        <p><strong>Burkina Faso</strong></p>
+        </div>
+        <div>
+          <li class="carousel__item">
+            <span><img class="dpbfaso" src="Drapeau/ci.png" alt=""></span>
+          </li>
+          <p><strong>Cote d'Ivoir</strong></p>
+        </div>
+        <div>
+          <li class="carousel__item">
+            <span><img class="dpbfaso" src="Drapeau/mali.jpg" alt=""></span>
+          </li>
+          <p><strong>Mali</strong></p>
+        </div>
+        <div>
+          <li class="carousel__item">
+            <span><img class="dpbfaso" src="Drapeau/Cameroun.png" alt=""></span>
+          </li>
+          <p><strong>Cameroun</strong></p>
+        </div>
+        <div>
+          <li class="carousel__item">
+            <span><img class="dpbfaso" src="Drapeau/kissMauritanie.jpg" alt=""></span>
+          </li>
+          <p><strong>Mauritanie</strong></p>
+        </div>
+        <div>
+          <li class="carousel__item">
+            <span><img class="dpbfaso" src="Drapeau/togo.png" alt=""></span>
+          </li>
+          <p><strong>Togo</strong></p>
+        </div>
+      </ul>
+    </div>
+  </section>
+  <!-- les pays fin -->
+<!-- Temoignages -->
+<div class="container-fluid Temoignages" style="padding: 50px;">
+  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="col-4 ImgTemoignage"><img src="imgDCLIC/Imgform1.jpg" alt=""></div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title"><strong>BANSE Ousseni</strong></h2>
+                <h4>ENTREPRENEUR</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis deleniti maxime soluta expedita nemo ex ipsum veritatis voluptate saepe impedit provident repudiandae, rem a placeat sint dolorem, obcaecati unde quas maiores aliquam! Consectetur libero voluptates aut, facere eum assumenda numquam tenetur adipisci, laudantium magnam velit amet consequuntur earum expedita reiciendis officiis fuga blanditiis eveniet enim, placeat voluptatibus qui commodi officia nulla. Eveniet id, vero mollitia dignissimos dicta quaerat, hic optio perspiciatis harum provident ipsa, cum quia vel accusamus? Enim quia molestias qui nisi distinctio exercitationem, possimus natus tempora aspernatur unde harum dolorum? Eaque saepe odio modi, tempore quisquam nulla.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+      </div>
+      <div class="carousel-item">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="col-4 ImgTemoignage"><img src="imgDCLIC/Balba" alt=""></div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+               
+                <h2 class="card-title"><strong>BALBARA Olsen</strong></h2>
+                <h4>Codeuse</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis deleniti maxime soluta expedita nemo ex ipsum veritatis voluptate saepe impedit provident repudiandae, rem a placeat sint dolorem, obcaecati unde quas maiores aliquam! Consectetur libero voluptates aut, facere eum assumenda numquam tenetur adipisci, laudantium magnam velit amet consequuntur earum expedita reiciendis officiis fuga blanditiis eveniet enim, placeat voluptatibus qui commodi officia nulla. Eveniet id, vero mollitia dignissimos dicta quaerat, hic optio perspiciatis harum provident ipsa, cum quia vel accusamus? Enim quia molestias qui nisi distinctio exercitationem, possimus natus tempora aspernatur unde harum dolorum? Eaque saepe odio modi, tempore quisquam nulla.</p>
+            
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+      <div class="carousel-item">
+        <div class="card mb-3" style="max-width: 100%;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <div class="col-4 ImgTemoignage"><img src="imgDCLIC/Imgform1.jpg" alt=""></div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                
+                <h2 class="card-title"><strong>BANSE Ousseni</strong></h2>
+                <h4>ENTREPRENEUR</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis quis deleniti maxime soluta expedita nemo ex ipsum veritatis voluptate saepe impedit provident repudiandae, rem a placeat sint dolorem, obcaecati unde quas maiores aliquam! Consectetur libero voluptates aut, facere eum assumenda numquam tenetur adipisci, laudantium magnam velit amet consequuntur earum expedita reiciendis officiis fuga blanditiis eveniet enim, placeat voluptatibus qui commodi officia nulla. Eveniet id, vero mollitia dignissimos dicta quaerat, hic optio perspiciatis harum provident ipsa, cum quia vel accusamus? Enim quia molestias qui nisi distinctio exercitationem, possimus natus tempora aspernatur unde harum dolorum? Eaque saepe odio modi, tempore quisquam nulla.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  
+</div>
+<!-- temoignages fin -->
+
+<!-- Contact debut -->
+<div class="container-fluid" style="padding: 40px;">
+<div class="row">
+  <div class="col-6">
+      <div class="card-body contactNous">
+           <h1>CONTACTEZ-NOUS</h1>
+           <input type="text" placeholder="NOM">
+           <input type="text" placeholder="PRENOM">
+           <input type="email" placeholder="Email">
+           <input class="p-5" type="text" placeholder="Message">
+           <input type="submit">
+      </div>
+    </div>
+  <div class="col-6">
+      <div class="card-body contactNousplus">
+<div>
+  <h1>APPELEZ-NOUS</h1>
+  <p>+00226 0000000 <br>
+    +00225 0000000</p>
+</div>
+<div>
+  <h1>EMPLACEMENT</h1>
+  <p>
+    121 Koudougou sec 09 <br>
+123 Yopougon R 09
+  </p>
+</div>
+<div>
+  <h1>NOS FORMATIOS</h1>
+  <p class="formationR">
+   <a href="#">Developpement</a> <br>
+   <a href="#"> Cloud </a> <br>
+   <a href="#">Electronique</a> <br>
+  </p>
+</div>
+      </div>
+  </div>
+</div>
+</div>
+<!-- Contqct fin -->
+<!-- footer -->
+<div class="conternair-fluid footeColor">
+  <div class="row">
+    <div class="col-3">
+    <img src="logo/logooif.png" alt="#"><br>
+    <img src="logo/lododclic.png" alt="#">
+
+    </div>
+    <div class="col-3">
+      <h1>NAVIGATION</h1>
+      <a href="">Accueil</a> <br>
+      <a href=""> Formations</a> <br>
+      <a href="">Pays</a> <br>
+      <a href="">contacts</a> <br>
+    </div>
+    <div class="col-3">
+      <h1>COORDONNEES</h1>
+      <a href="">Appelez-Nous</a> <br>
+      <a href=""> Emplacement</a>
+    </div>
+    <div class="col-3"><h1>Nous suivre</h1>
+      <i class="fa-brands fa-facebook" style="color: #6192e5;"></i>
+      <i class="fa-brands fa-instagram" style="color: #271f51;"></i>
+      <i class="fa-brands fa-twitter" style="color: #5e8bd9;"></i>
+    </div>
+
+  </div>
+  <div><h1 class="CopyrightT">Copyright <i class="fa-regular fa-copyright" style="color: white;"></i> D-CLIC 2023</h1></div>
+</div>
+<!-- fin footer -->
+
+  <!-- font awesome -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" integrity="sha512-fD9DI5bZwQxOi7MhYWnnNPlvXdp/2Pj3XSTRrFs5FQa4mizyGLnJcN6tuvUS6LbmgN1ut+XGSABKvjN0H6Aoow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- lien js -->
+    <script src="js/javaStyle.js"></script>
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
