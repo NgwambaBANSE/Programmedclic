@@ -26,7 +26,7 @@ font-weight: bold;
 .text1{
   font-weight: bold;
   text-align: center;
-  background-color: rgba(255, 0, 0, 0.297);
+  background-color: #7cb9366a;
   border-radius: 50px  0px  50px 0px ;
   margin-bottom: 100px;
   font-size: 20px;
@@ -55,7 +55,7 @@ font-weight: bold;
 .vonemin{
     width: auto;
     height: 700px;
-    background-color: #DFEBCE;
+    background-color: #7BB936CE;
 }
 .drapoRond img{
     width: 100px;
@@ -63,14 +63,14 @@ font-weight: bold;
     border-radius: 50%;
 }
 .formDclic{
-  box-shadow: 5px 5px 5px 5px rgba(255, 0, 0, 0.557);
+  box-shadow: 5px 5px 5px 5px white;
 }
 /* .formDclic img:hover{
   transform: scale(1.05);
 } */
    /* pays */
    
-carousel div ul {
+.carousel div ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -110,7 +110,7 @@ carousel div ul {
     border: 2px solid #333;
     border-radius: 50px;
     box-sizing: border-box;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color:#7cb9366a;
     cursor: pointer;
   }
   
@@ -129,7 +129,7 @@ carousel div ul {
 
    /* Temoignages */
    .Temoignages{
-    background-color: #DFEBCE;
+    background-color: #7BB936;
     width: auto;
     height: 500px;
    }
@@ -141,6 +141,13 @@ carousel div ul {
     transform: scale(1.05);
 }
 /* CONTACT */
+/* @media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+} */
+
 input[type="text"],input[type="email"], input[type="number"] {
     display: block;
     margin: 2% auto;
@@ -207,7 +214,7 @@ color: black;
 .footeColor{
   width: 100%;
   height: 300px;
-  background-color: #707070;
+  background-color: #7BB936;
 }
 .footeColor div div h1{
   color: white;
