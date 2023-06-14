@@ -2,10 +2,7 @@
 margin: 0px;
 padding: 0px;
 }
-@media only screen and (max-width: 750px){
-  
 
-}
 .MonNavbar{
 background-color: #7BB936;
 z-index: 100;
@@ -204,6 +201,44 @@ color: white;
 text-decoration: none;
 color: black;
 }
+/* responsive temoignage */
+@media only screen and (max-width: 750px){
+  .Temoignages{
+    background-color: #7BB936;
+    width: auto;
+    height: 600px;
+   }
+   .ImgTemoignage img{
+    display: none;
+    /* height: 100px;
+    width: 400px; */
+   }
+   .ImgTemoignage img:hover {
+    transform: scale(1.05);
+  }
+
+  .contactNousplus {
+    width: 450px;
+    height: 500px;
+    border: solid 3px #7BB936;
+    border-radius: 20px;
+    background-color: #7BB936;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+  }
+  .contactNousplus  div h1{
+   margin-left: 50px;
+   font-weight: bold;
+   color: white;
+  }
+
+  .formationR a{
+  text-decoration: none;
+  color: black;
+  }
+  }
 
 /* footer */
 .footeColor{
@@ -230,4 +265,24 @@ color: black;
 .footeColor div a{
   text-decoration: none;
   color: white;
+
 }
+/* responsive footer debut */
+@media only screen and (max-width: 750px){
+.footerpage{
+  display: flex;
+  flex-direction: column;
+}
+.footeColor{
+  width: 100%;
+  height: 700px;
+  background-color: #7BB936;
+}
+.footeColor div div h1{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+}
+
+/* responsive footer fin */
